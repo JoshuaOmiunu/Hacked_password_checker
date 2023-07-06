@@ -1,2 +1,3 @@
 # Hacked_password_checker
 I worked on a project that used API data from the website https://haveibeenpwned.com/Passwords which gathers info on passwords inputted that have been hacked and used frequently. I used Python to develop a way in which when a password is inputted in the terminal: the Hash and amount of times the password was used is outputted
+The code involved using api checking and testing to be able to split the Hash encoded passwords and the numeric times it was used. Instead of trying to find the whole hash password I only tried finding the first 5 letters which made the code run faster.
